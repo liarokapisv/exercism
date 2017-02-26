@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/nucleotide-count.dir/nucleotide_count_test.cpp.o CMakeFiles/nucleotide-count.dir/nucleotide_count.cpp.o  -o nucleotide-count -rdynamic -Wl,-Bstatic -lboost_unit_test_framework -lboost_date_time -lboost_regex -Wl,-Bdynamic 

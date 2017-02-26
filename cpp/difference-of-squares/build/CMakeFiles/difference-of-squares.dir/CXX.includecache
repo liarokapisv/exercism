@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/difference-of-squares/difference_of_squares.cpp
+iostream
+-
+
+/home/veritas/exercism/cpp/difference-of-squares/difference_of_squares.h
+
+/home/veritas/exercism/cpp/difference-of-squares/difference_of_squares_test.cpp
+difference_of_squares.h
+/home/veritas/exercism/cpp/difference-of-squares/difference_of_squares.h
+boost/test/unit_test.hpp
+-
+

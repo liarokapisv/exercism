@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/word-count.dir/word_count_test.cpp.o CMakeFiles/word-count.dir/word_count.cpp.o  -o word-count -rdynamic -Wl,-Bstatic -lboost_unit_test_framework -lboost_date_time -lboost_regex -Wl,-Bdynamic 

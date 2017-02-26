@@ -1,0 +1,3 @@
+/home/veritas/exercism/cpp/grade-school/build/CMakeFiles/edit_cache.dir
+/home/veritas/exercism/cpp/grade-school/build/CMakeFiles/rebuild_cache.dir
+/home/veritas/exercism/cpp/grade-school/build/CMakeFiles/grade-school.dir

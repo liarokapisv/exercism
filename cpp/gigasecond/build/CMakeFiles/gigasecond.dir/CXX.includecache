@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/gigasecond/gigasecond.cpp
+
+/home/veritas/exercism/cpp/gigasecond/gigasecond.h
+boost/date_time/posix_time/posix_time.hpp
+/home/veritas/exercism/cpp/gigasecond/boost/date_time/posix_time/posix_time.hpp
+
+/home/veritas/exercism/cpp/gigasecond/gigasecond_test.cpp
+gigasecond.h
+/home/veritas/exercism/cpp/gigasecond/gigasecond.h
+boost/test/unit_test.hpp
+-
+

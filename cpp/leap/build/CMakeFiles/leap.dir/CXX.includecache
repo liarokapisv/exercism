@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/leap/leap.cpp
+
+/home/veritas/exercism/cpp/leap/leap.h
+
+/home/veritas/exercism/cpp/leap/leap_test.cpp
+leap.h
+/home/veritas/exercism/cpp/leap/leap.h
+boost/test/unit_test.hpp
+-
+

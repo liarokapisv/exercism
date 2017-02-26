@@ -1,0 +1,51 @@
+
+==================== FINAL INTERFACE ====================
+2016-11-16 18:28:57.799003 UTC
+
+interface accumulate-0.0.0-Fm7OPAcAu2037ei4thXolp:Accumulate 8001
+  interface hash: a7f9f155b62e53f1ec81c8bfeb5b17c6
+  ABI hash: bdd59852953689ce4cd58a487fa898bd
+  export-list hash: b03d92c80dce9298c0c0f4f8fc2bc826
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: b159a15c55fa7c6870cb2eb79bbae5a5
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Accumulate.accumulate
+module dependencies:
+package dependencies: base-4.9.0.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+family instance modules: base-4.9.0.0:Control.Applicative
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Const
+                         base-4.9.0.0:Data.Monoid base-4.9.0.0:Data.Type.Equality
+                         base-4.9.0.0:GHC.Generics base-4.9.0.0:GHC.IO.Exception
+                         base-4.9.0.0:GHC.TypeLits
+import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
+ac966bede04fbe603874ee40ec575d32
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Accumulate.$trModule2
+                   Accumulate.$trModule1) -}
+047976d2bdd7b2178fef0f9d73e392a8
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Accumulate"#) -}
+1a8a2f3f66b0e668d43461536bf88de8
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "accumulate-0.0.0-Fm7OPAcAu2037ei4thXolp"#) -}
+fe85b1244eeaa9d66a1d6aad6833d8e1
+  accumulate :: (a -> b) -> [a] -> [b]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,C(U)><S,1*U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

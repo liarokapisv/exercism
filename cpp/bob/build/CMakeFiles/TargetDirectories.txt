@@ -1,0 +1,3 @@
+/home/veritas/exercism/cpp/bob/build/CMakeFiles/edit_cache.dir
+/home/veritas/exercism/cpp/bob/build/CMakeFiles/rebuild_cache.dir
+/home/veritas/exercism/cpp/bob/build/CMakeFiles/bob.dir

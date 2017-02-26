@@ -1,0 +1,13 @@
+Configuring hspec-2.2.3...
+Building hspec-2.2.3...
+Preprocessing library hspec-2.2.3...
+[1 of 7] Compiling Test.Hspec.HUnit ( src/Test/Hspec/HUnit.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Test/Hspec/HUnit.o )
+[2 of 7] Compiling Test.Hspec.Formatters ( src/Test/Hspec/Formatters.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Test/Hspec/Formatters.o )
+[3 of 7] Compiling Test.Hspec.Discover ( src/Test/Hspec/Discover.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Test/Hspec/Discover.o )
+[4 of 7] Compiling Test.Hspec.Runner ( src/Test/Hspec/Runner.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Test/Hspec/Runner.o )
+[5 of 7] Compiling Test.Hspec.Core  ( src/Test/Hspec/Core.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Test/Hspec/Core.o )
+[6 of 7] Compiling Test.Hspec       ( src/Test/Hspec.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Test/Hspec.o )
+[7 of 7] Compiling Test.Hspec.QuickCheck ( src/Test/Hspec/QuickCheck.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Test/Hspec/QuickCheck.o )
+Installing library in
+/home/veritas/.stack/snapshots/x86_64-linux/nightly-2016-07-17/8.0.1/lib/x86_64-linux-ghc-8.0.1/hspec-2.2.3-C04Ajzoc2CS2xlhDiU7iwX
+Registering hspec-2.2.3...

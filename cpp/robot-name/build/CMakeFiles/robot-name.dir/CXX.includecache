@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/robot-name/robot_name.h
+random
+-
+string
+-
+algorithm
+-
+
+/home/veritas/exercism/cpp/robot-name/robot_name_test.cpp
+robot_name.h
+/home/veritas/exercism/cpp/robot-name/robot_name.h
+boost/test/unit_test.hpp
+-
+boost/regex.hpp
+-
+

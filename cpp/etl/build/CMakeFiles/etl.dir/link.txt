@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/etl.dir/etl_test.cpp.o  -o etl -rdynamic -Wl,-Bstatic -lboost_unit_test_framework -lboost_date_time -lboost_regex -Wl,-Bdynamic 

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/phone-number/phone_number.cpp
+iostream
+-
+
+/home/veritas/exercism/cpp/phone-number/phone_number.h
+string
+-
+algorithm
+-
+
+/home/veritas/exercism/cpp/phone-number/phone_number_test.cpp
+phone_number.h
+/home/veritas/exercism/cpp/phone-number/phone_number.h
+boost/test/unit_test.hpp
+-
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/space-age/space_age.h
+
+/home/veritas/exercism/cpp/space-age/space_age_test.cpp
+space_age.h
+/home/veritas/exercism/cpp/space-age/space_age.h
+boost/test/unit_test.hpp
+-
+cmath
+-
+

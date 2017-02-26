@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/etl/etl.h
+vector
+-
+map
+-
+cstring
+-
+
+/home/veritas/exercism/cpp/etl/etl_test.cpp
+etl.h
+/home/veritas/exercism/cpp/etl/etl.h
+boost/test/unit_test.hpp
+-
+require_equal_containers.h
+/home/veritas/exercism/cpp/etl/require_equal_containers.h
+
+/home/veritas/exercism/cpp/etl/require_equal_containers.h
+utility
+-
+vector
+-
+boost/version.hpp
+-
+

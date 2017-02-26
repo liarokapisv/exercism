@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/nucleotide-count/nucleotide_count.cpp
+iostream
+-
+
+/home/veritas/exercism/cpp/nucleotide-count/nucleotide_count.h
+map
+-
+string
+-
+stdexcept
+-
+
+/home/veritas/exercism/cpp/nucleotide-count/nucleotide_count_test.cpp
+nucleotide_count.h
+/home/veritas/exercism/cpp/nucleotide-count/nucleotide_count.h
+boost/test/unit_test.hpp
+-
+stdexcept
+-
+require_equal_containers.h
+/home/veritas/exercism/cpp/nucleotide-count/require_equal_containers.h
+
+/home/veritas/exercism/cpp/nucleotide-count/require_equal_containers.h
+utility
+-
+vector
+-
+boost/version.hpp
+-
+

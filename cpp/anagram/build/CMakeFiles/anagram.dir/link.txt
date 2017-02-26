@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/anagram.dir/anagram_test.cpp.o CMakeFiles/anagram.dir/anagram.cpp.o  -o anagram -rdynamic -Wl,-Bstatic -lboost_unit_test_framework -lboost_date_time -lboost_regex -Wl,-Bdynamic 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/hamming.dir/hamming_test.cpp.o CMakeFiles/hamming.dir/hamming.cpp.o  -o hamming -rdynamic -Wl,-Bstatic -lboost_unit_test_framework -lboost_date_time -lboost_regex -Wl,-Bdynamic 

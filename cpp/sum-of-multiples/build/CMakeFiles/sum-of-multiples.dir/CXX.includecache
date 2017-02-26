@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/sum-of-multiples/sum_of_multiples.h
+vector
+-
+algorithm
+-
+
+/home/veritas/exercism/cpp/sum-of-multiples/sum_of_multiples_test.cpp
+sum_of_multiples.h
+/home/veritas/exercism/cpp/sum-of-multiples/sum_of_multiples.h
+boost/test/unit_test.hpp
+-
+

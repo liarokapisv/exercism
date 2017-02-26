@@ -1,0 +1,142 @@
+
+==================== FINAL INTERFACE ====================
+2016-11-15 03:20:29.209908 UTC
+
+interface grains-0.0.0-IiTLN3Dt5XN9rJambtJaYb:Grains 8001
+  interface hash: 9bbbf4faf49ff14ff40483b91d78729c
+  ABI hash: ba94810725623fca7631ac8482d5fe5c
+  export-list hash: 2800ced4fa8c2c00390df2f5d8fbda11
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: b159a15c55fa7c6870cb2eb79bbae5a5
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Grains.square
+  Grains.total
+module dependencies:
+package dependencies: array-0.5.1.1@array-0.5.1.1* base-4.9.0.0*
+                      ghc-prim-0.5.0.0 integer-gmp-1.0.0.1
+orphans: base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+family instance modules: base-4.9.0.0:Control.Applicative
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Const
+                         base-4.9.0.0:Data.Monoid base-4.9.0.0:Data.Type.Equality
+                         base-4.9.0.0:GHC.Generics base-4.9.0.0:GHC.IO.Exception
+                         base-4.9.0.0:GHC.TypeLits
+import  -/  array-0.5.1.1@array-0.5.1.1:Data.Array 01310623526f8acc73d1bb69e9d9530a
+import  -/  base-4.9.0.0:GHC.Arr fbccefe7cac601823d07f61ad7e915a2
+import  -/  base-4.9.0.0:GHC.Base 8ed3be81c0707b322f975a84ae1bb816
+import  -/  base-4.9.0.0:GHC.Num 48f506a8f4ecf06285d0a0706594dcc0
+import  -/  base-4.9.0.0:GHC.Real 08bf4acb5f2508f89d6fbcd57fe232e9
+import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  integer-gmp-1.0.0.1:GHC.Integer.Type 62c0e736506aac47ef40569f5b82e19d
+916ea35bd9534c055d31e9f40c76ac50
+  $seven1 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (0) -}
+a7f6c471286bbec4321050ddbba60782
+  $seven2 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (2) -}
+bc5237252a895777d17eb5f717d6fdf0
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Grains.$trModule2
+                   Grains.$trModule1) -}
+02d955f69cdd921b4db0b906563f8edc
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Grains"#) -}
+935ae9ec461697ca95fed1be6be50db1
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "grains-0.0.0-IiTLN3Dt5XN9rJambtJaYb"#) -}
+5d431d70603d2a3876f84803deb1f37a
+  square ::
+    GHC.Integer.Type.Integer -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (n :: GHC.Integer.Type.Integer) ->
+                 case GHC.Integer.Type.leInteger#
+                        Grains.square3
+                        n of wild { DEFAULT ->
+                 case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild of wild1 {
+                   GHC.Types.False -> GHC.Base.Nothing @ GHC.Integer.Type.Integer
+                   GHC.Types.True
+                   -> case GHC.Integer.Type.leInteger#
+                             n
+                             Grains.square2 of wild2 { DEFAULT ->
+                      case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild2 of wild3 {
+                        GHC.Types.False -> GHC.Base.Nothing @ GHC.Integer.Type.Integer
+                        GHC.Types.True
+                        -> GHC.Base.Just
+                             @ GHC.Integer.Type.Integer
+                             (case Grains.square_fastExp2'' of wild4 { GHC.Arr.Array l u dt ds ->
+                              let {
+                                i :: GHC.Integer.Type.Integer
+                                = GHC.Integer.Type.minusInteger n Grains.square3
+                              } in
+                              case GHC.Integer.Type.leInteger# l i of wild5 { DEFAULT ->
+                              case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild5 of wild6 {
+                                GHC.Types.False
+                                -> case Grains.square1 u l i ret_ty GHC.Integer.Type.Integer of {}
+                                GHC.Types.True
+                                -> case GHC.Integer.Type.leInteger# i u of wild7 { DEFAULT ->
+                                   case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild7 of wild8 {
+                                     GHC.Types.False
+                                     -> case Grains.square1 u l i
+                                        ret_ty GHC.Integer.Type.Integer
+                                        of {}
+                                     GHC.Types.True
+                                     -> case GHC.Integer.Type.integerToInt
+                                               (GHC.Integer.Type.minusInteger
+                                                  i
+                                                  l) of wild9 { DEFAULT ->
+                                        case GHC.Prim.tagToEnum#
+                                               @ GHC.Types.Bool
+                                               (GHC.Prim.<=# 0# wild9) of wild10 {
+                                          GHC.Types.False
+                                          -> case GHC.Arr.safeIndex2 dt wild9
+                                             ret_ty GHC.Integer.Type.Integer
+                                             of {}
+                                          GHC.Types.True
+                                          -> case GHC.Prim.tagToEnum#
+                                                    @ GHC.Types.Bool
+                                                    (GHC.Prim.<# wild9 dt) of wild11 {
+                                               GHC.Types.False
+                                               -> case GHC.Arr.safeIndex2 dt wild9
+                                                  ret_ty GHC.Integer.Type.Integer
+                                                  of {}
+                                               GHC.Types.True
+                                               -> case GHC.Prim.indexArray#
+                                                         @ GHC.Integer.Type.Integer
+                                                         ds
+                                                         wild9 of ds4 { Unit# ipv ->
+                                                  ipv } } } } } } } } }) } } } }) -}
+d91731e7a2f3a5053651145851a76b6d
+  square1 ::
+    GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer
+    -> GHC.Types.Int
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>x -}
+4b271924a1735efd92c71a02d7acc86b
+  square2 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (64) -}
+9eed240060462226db09fdfa83522e57
+  square3 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (1) -}
+25c066262a56ae6d2fc9b332e7222d08
+  square_fastExp2'' ::
+    GHC.Arr.Array GHC.Integer.Type.Integer GHC.Integer.Type.Integer
+05c21ecfbda90360f64d600f53e7d868
+  total :: GHC.Integer.Type.Integer
+  {- Unfolding: (18446744073709551615) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

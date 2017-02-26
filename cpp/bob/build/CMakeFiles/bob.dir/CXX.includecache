@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/bob/bob.cpp
+
+/home/veritas/exercism/cpp/bob/bob.h
+string
+-
+algorithm
+-
+iterator
+-
+functional
+-
+
+/home/veritas/exercism/cpp/bob/bob_test.cpp
+bob.h
+/home/veritas/exercism/cpp/bob/bob.h
+boost/test/unit_test.hpp
+-
+

@@ -1,0 +1,3 @@
+/home/veritas/exercism/cpp/robot-name/build/CMakeFiles/edit_cache.dir
+/home/veritas/exercism/cpp/robot-name/build/CMakeFiles/rebuild_cache.dir
+/home/veritas/exercism/cpp/robot-name/build/CMakeFiles/robot-name.dir

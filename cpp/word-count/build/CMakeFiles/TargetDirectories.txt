@@ -1,0 +1,3 @@
+/home/veritas/exercism/cpp/word-count/build/CMakeFiles/rebuild_cache.dir
+/home/veritas/exercism/cpp/word-count/build/CMakeFiles/edit_cache.dir
+/home/veritas/exercism/cpp/word-count/build/CMakeFiles/word-count.dir

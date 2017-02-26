@@ -1,0 +1,3 @@
+/home/veritas/exercism/cpp/etl/build/CMakeFiles/edit_cache.dir
+/home/veritas/exercism/cpp/etl/build/CMakeFiles/rebuild_cache.dir
+/home/veritas/exercism/cpp/etl/build/CMakeFiles/etl.dir

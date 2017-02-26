@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/anagram/anagram.cpp
+
+/home/veritas/exercism/cpp/anagram/anagram.h
+string
+-
+cstdio
+-
+algorithm
+-
+
+/home/veritas/exercism/cpp/anagram/anagram_test.cpp
+anagram.h
+/home/veritas/exercism/cpp/anagram/anagram.h
+boost/test/unit_test.hpp
+-
+

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/word-count/require_equal_containers.h
+utility
+-
+vector
+-
+boost/version.hpp
+-
+
+/home/veritas/exercism/cpp/word-count/word_count.cpp
+
+/home/veritas/exercism/cpp/word-count/word_count.h
+map
+-
+sstream
+-
+string
+-
+iterator
+-
+algorithm
+-
+
+/home/veritas/exercism/cpp/word-count/word_count_test.cpp
+word_count.h
+/home/veritas/exercism/cpp/word-count/word_count.h
+boost/test/unit_test.hpp
+-
+map
+-
+require_equal_containers.h
+/home/veritas/exercism/cpp/word-count/require_equal_containers.h
+

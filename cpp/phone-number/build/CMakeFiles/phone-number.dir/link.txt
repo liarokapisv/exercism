@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/phone-number.dir/phone_number_test.cpp.o CMakeFiles/phone-number.dir/phone_number.cpp.o  -o phone-number -rdynamic -Wl,-Bstatic -lboost_unit_test_framework -lboost_date_time -lboost_regex -Wl,-Bdynamic 

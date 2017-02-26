@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veritas/exercism/cpp/hamming/hamming.cpp
+
+/home/veritas/exercism/cpp/hamming/hamming.h
+string
+-
+stdexcept
+-
+
+/home/veritas/exercism/cpp/hamming/hamming_test.cpp
+hamming.h
+/home/veritas/exercism/cpp/hamming/hamming.h
+stdexcept
+-
+boost/test/unit_test.hpp
+-
+

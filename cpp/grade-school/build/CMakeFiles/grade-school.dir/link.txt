@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/grade-school.dir/grade_school_test.cpp.o CMakeFiles/grade-school.dir/grade_school.cpp.o  -o grade-school -rdynamic -Wl,-Bstatic -lboost_unit_test_framework -lboost_date_time -lboost_regex -Wl,-Bdynamic 

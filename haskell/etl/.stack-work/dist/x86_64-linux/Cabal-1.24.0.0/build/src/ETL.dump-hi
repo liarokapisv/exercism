@@ -1,0 +1,148 @@
+
+==================== FINAL INTERFACE ====================
+2016-11-15 21:42:08.065925 UTC
+
+interface etl-0.0.0-5xKDKoLM5Id754Ct38sJbp:ETL 8001
+  interface hash: 43926bee13141443051b24b31256deb6
+  ABI hash: ae2b2ef7f1304af6a6e504b7bce9d6b1
+  export-list hash: b81a1a235250cf0df6d27eb968b19599
+  orphan hash: 25d877ae77f90d658fb2345f2b1bd57b
+  flag hash: b159a15c55fa7c6870cb2eb79bbae5a5
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  ETL.transform
+module dependencies:
+package dependencies: array-0.5.1.1@array-0.5.1.1 base-4.9.0.0*
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+family instance modules: base-4.9.0.0:Control.Applicative
+                         base-4.9.0.0:Data.Complex base-4.9.0.0:Data.Either
+                         base-4.9.0.0:Data.Functor.Const base-4.9.0.0:Data.Functor.Identity
+                         base-4.9.0.0:Data.List.NonEmpty base-4.9.0.0:Data.Monoid
+                         base-4.9.0.0:Data.Semigroup base-4.9.0.0:Data.Type.Equality
+                         base-4.9.0.0:Data.Version base-4.9.0.0:Data.Void
+                         base-4.9.0.0:GHC.Exts base-4.9.0.0:GHC.Generics
+                         base-4.9.0.0:GHC.IO.Exception base-4.9.0.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+import  -/  base-4.9.0.0:Data.Char eb33dc25ecb52d018a0ca26590e2b50b
+import  -/  base-4.9.0.0:Data.Functor 6fc476505db88d678632a4a838125f13
+import  -/  base-4.9.0.0:GHC.Base 8ed3be81c0707b322f975a84ae1bb816
+import  -/  base-4.9.0.0:GHC.Unicode 2343b0871604cc5116abba8f24d75b42
+import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
+import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Map 24b19ef74cea78e4c18332bed9f0491d
+import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base 1e8d61dcc59a1a983b27bab6fd6bdcaf
+e3dcb976ac26e0f4eb4babde183217e2
+  $sfromList ::
+    [(GHC.Types.Char, a)] -> Data.Map.Base.Map GHC.Types.Char a
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ @ a (ds :: [(GHC.Types.Char, a)]) ->
+                 case ds of wild {
+                   [] -> Data.Map.Base.Tip @ GHC.Types.Char @ a
+                   : ds1 ds2
+                   -> case ds1 of wild1 { (,) kx x ->
+                      case ds2 of wild2 {
+                        []
+                        -> case kx of dt { GHC.Types.C# ipv ->
+                           Data.Map.Base.Bin
+                             @ GHC.Types.Char
+                             @ a
+                             1#
+                             dt
+                             x
+                             (Data.Map.Base.Tip @ GHC.Types.Char @ a)
+                             (Data.Map.Base.Tip @ GHC.Types.Char @ a) }
+                        : ipv ipv1
+                        -> case ipv of wild3 { (,) ky ds3 ->
+                           case kx of wild4 { GHC.Types.C# c1 ->
+                           case ky of wild5 { GHC.Types.C# c2 ->
+                           case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.geChar# c1 c2) of wild6 {
+                             GHC.Types.False
+                             -> ETL.$wpoly_go10
+                                  @ a
+                                  1#
+                                  (Data.Map.Base.Bin
+                                     @ GHC.Types.Char
+                                     @ a
+                                     1#
+                                     wild4
+                                     x
+                                     (Data.Map.Base.Tip @ GHC.Types.Char @ a)
+                                     (Data.Map.Base.Tip @ GHC.Types.Char @ a))
+                                  wild2
+                             GHC.Types.True
+                             -> ETL.$sfromList1
+                                  @ a
+                                  (Data.Map.Base.Bin
+                                     @ GHC.Types.Char
+                                     @ a
+                                     1#
+                                     wild4
+                                     x
+                                     (Data.Map.Base.Tip @ GHC.Types.Char @ a)
+                                     (Data.Map.Base.Tip @ GHC.Types.Char @ a))
+                                  wild2 } } } } } } }) -}
+3bae0734c5585ea10e02ab610cacc312
+  $sfromList1 ::
+    Data.Map.Base.Map GHC.Types.Char a1
+    -> [(GHC.Types.Char, a1)] -> Data.Map.Base.Map GHC.Types.Char a1
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+802f5ba3c77179d5b111493cba5aeaa3
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module ETL.$trModule2 ETL.$trModule1) -}
+7a77142ef3a80d6d33787263435b2e54
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "ETL"#) -}
+17ef4c26c04245b1501e9e0e8b523676
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "etl-0.0.0-5xKDKoLM5Id754Ct38sJbp"#) -}
+b63712a3e71374bd7a5a569ea19617d8
+  $w$sgo10 ::
+    GHC.Prim.Char#
+    -> a1
+    -> Data.Map.Base.Map GHC.Types.Char a1
+    -> Data.Map.Base.Map GHC.Types.Char a1
+  {- Arity: 3, Strictness: <L,U><L,U><S,1*U>, Inline: [0] -}
+b86ddb8ae7847c66c1d71e7aa20431a7
+  $wpoly_go10 ::
+    GHC.Prim.Int#
+    -> Data.Map.Base.Map GHC.Types.Char a
+    -> [(GHC.Types.Char, a)]
+    -> Data.Map.Base.Map GHC.Types.Char a
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+0e5d48a4225fd46a166a9cc9bb3770e7
+  transform ::
+    Data.Map.Base.Map a GHC.Base.String
+    -> Data.Map.Base.Map GHC.Types.Char a
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ @ a (m :: Data.Map.Base.Map a GHC.Base.String) ->
+                 ETL.$sfromList
+                   @ a
+                   (ETL.transform1 @ a (GHC.Types.[] @ (GHC.Types.Char, a)) m)) -}
+686d0cf2387e60a76824cf8f3164914d
+  transform1 ::
+    [(GHC.Types.Char, a)]
+    -> Data.Map.Base.Map a [GHC.Types.Char] -> [(GHC.Types.Char, a)]
+  {- Arity: 2, Strictness: <L,1*U><S,1*U> -}
+"SPEC/ETL fromList @ Char _" [ALWAYS] forall @ a
+                                             ($dOrd :: GHC.Classes.Ord GHC.Types.Char)
+  Data.Map.Base.fromList @ GHC.Types.Char @ a $dOrd
+  = ETL.$sfromList @ a
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

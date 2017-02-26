@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.o CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.o  -o difference-of-squares -rdynamic -Wl,-Bstatic -lboost_unit_test_framework -lboost_date_time -lboost_regex -Wl,-Bdynamic 
